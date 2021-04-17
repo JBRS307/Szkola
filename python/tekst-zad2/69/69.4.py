@@ -42,3 +42,5 @@ for i in range(len(arr)):
 
 print('Organizmy odporne:', immune)
 print('Organizmy silnie odporne:', strong)
+
+#by Jakub Rekas

@@ -15,3 +15,5 @@ for num in tempArr:
 
 print(f"Liczba gatunkow: {species}")
 print(f"Najliczniejszy gatunek: {max(tempArr)}")
+
+#by Jakub Rekas

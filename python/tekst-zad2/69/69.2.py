@@ -31,3 +31,5 @@ for subject in arr:
             break
 
 print("Liczba zmutowanych osobnikow:", counter)
+
+#by Jakub Rekas

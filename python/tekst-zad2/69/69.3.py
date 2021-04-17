@@ -37,3 +37,5 @@ for subject in arr:
 
 print('Najwiecej genow:', mostGenes)
 print('Najdluzszy gen:', maxGene)
+
+#by Jakub Rekas
