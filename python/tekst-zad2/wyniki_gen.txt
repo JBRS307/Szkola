@@ -1,0 +1,14 @@
+69.1
+Liczba gatunkow: 207
+Najliczniejszy gatunek: 20
+
+69.2
+8
+
+69.3
+Najwiecej genow: 11
+Najdluzszy gen: 189
+
+69.4
+Organizmy odporne: 249
+Organizmy silnie odporne: 187
