@@ -3,18 +3,16 @@
 
 using namespace std;
 
-bool checkIfAPalindrome(string text, int start, int end){
-    for(int i = start; i<=end+1; i++){
-        if(i == end+1)
-            return true;
-        if(text[i] != 'A')
-            break;
-    }
-    if(text.length()%2)
+bool checkIfAPalindrome(string text){
+    int end = text.length()-1;
+    if(text == "A")
+        return true;
+
+    if(text.length()%2 or end == 0)
         return false;
-    if(text[start] == text[end]){
-        int mid = start + (end - start)/2;
-        if(checkIfAPalindrome(text, start, mid) or checkIfAPalindrome(text, mid+1, end)){
+    if(text[0] == text[end]){
+        int mid = text.length()/2;
+        if(checkIfAPalindrome(text.substr(0, mid)) or checkIfAPalindrome(text.substr(mid, mid))){
             return true;
         }
     }
@@ -26,7 +24,7 @@ int main(){
     cout << "Podaj napis: ";
     cin >> text;
 
-    if(checkIfAPalindrome(text, 0, text.length()-1)){
+    if(checkIfAPalindrome(text)){
         cout << "Wyraz jest A-palindromem\n";
     }
     else{
